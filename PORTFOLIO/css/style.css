@@ -470,6 +470,10 @@ footer .copyright{
 }
 
 @media (max-width:576px){
+    html,body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
     .hero{
         flex-direction: column;
     }
